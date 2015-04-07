@@ -20,7 +20,7 @@ if &background == "dark"
   hi clear
   let g:colors_name = "kalisi"
 
-  hi Normal 	      guifg=#b5b5b5 guibg=#404042  gui=none
+  hi Normal 	      guifg=#b5b5b5 guibg=#202022  gui=none
 
   hi Comment 	      guifg=#797772
   hi CommentURL       guifg=#6090c0 guibg=NONE     gui=underline
