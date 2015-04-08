@@ -20,18 +20,19 @@ if &background == "dark"
   hi clear
   let g:colors_name = "kalisi"
 
-  hi Normal 	      guifg=#b5b5b5 guibg=#202022  gui=none
+  hi Normal 	      guifg=#d5d5d5 guibg=#202022  gui=none
 
   hi Comment 	      guifg=#797772
   hi CommentURL       guifg=#6090c0 guibg=NONE     gui=underline
   hi CommentEmail     guifg=#6090c0 guibg=NONE     gui=underline
 
   hi Constant 	      guifg=#94be54                   gui=bold
-  hi String 	      guifg=#ffc63f                 
+  hi String 	      guifg=#ffc63f
   hi Character        guifg=#c85bff
   hi Number           guifg=#ffad3f
   hi Boolean 	      guifg=#94be54
   hi Float            guifg=#fff650
+  hi ColorColumn      guibg=#404040
   
   " HTML Closing tags </...> 
   " Vim variables
@@ -68,7 +69,7 @@ if &background == "dark"
 
   hi Special	      guifg=#e7f6da gui=none
   hi SpecialChar      guifg=#6a96ff               
-  hi SpecialKey	      guifg=#d6f3d8 guibg=#343434 gui=bold
+  hi SpecialKey	      guifg=#d6f3d8 guibg=#202020 gui=bold
 
   hi Tag              guifg=#00c0ff               gui=bold
   hi Delimiter        guifg=#7a9acd guibg=NONE    gui=none
