@@ -115,7 +115,7 @@ if &background == "dark"
   hi MatchParen       guifg=#202020 guibg=#8fca24 gui=none
 
   hi Visual           guibg=#3a4d6e               gui=none
-  hi VisualNOS                      guibg=#4a4d4e gui=none
+  hi VisualNOS                      guibg=#202020 gui=none
 
   hi Pmenu 	      guifg=#b5b5b5 guibg=#303032
   hi PmenuSel         guifg=#222222 guibg=#A6DB29 gui=none
@@ -126,7 +126,7 @@ if &background == "dark"
   hi FoldColumn       guifg=#b0b8c0 guibg=#373d43 gui=bold
   hi Folded 	      guifg=#727780 guibg=#373d43 gui=none
 
-  hi NonText          guifg=#958b7f guibg=#3a3a3a gui=none
+  hi NonText          guifg=#958b7f guibg=#202020 gui=none
   hi Conceal          guifg=#f6f3e8 guibg=#303030
 
   hi LineNr 	      guifg=#857b6f guibg=#303032 gui=none
